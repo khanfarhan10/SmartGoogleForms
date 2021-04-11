@@ -1,0 +1,50 @@
+<style>
+   .feed {padding: 5px 0}
+</style>
+<form method="post" action="/no">
+
+
+	
+		<div id="newlink">
+			<div class="feed"><p>Q1 Untitled Question</p>
+			   <input type="text" name="feedurl[]" placeholder="Q1">
+			</div>
+		</div>
+	
+
+
+	<p>
+		<br>
+		<a href="/no"><input type="submit" name="submit1"></a>
+		<input type="reset" name="reset1">
+	</p>
+<button type="button" id="Bttn">
+	<a href="javascript:add_feed()">Add New</a></button>
+</p>
+</form>
+<!-- Template. This whole data will be added directly to working form above -->
+<div id="newlinktpl" style="display:none">
+	<div class="feed">
+	 <input type="text" name="feedurl[]" placeholder="Sample Question"  size="50">
+	</div>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+function add_feed()
+{
+	var div1 = document.createElement('div');
+	// Get template data
+	div1.innerHTML = document.getElementById('newlinktpl').innerHTML;
+
+	// append to our form, so that template data
+	// become part of form
+	document.getElementById('newlink').appendChild(div1);
+}
+function display(){
+	
+}
+</script>

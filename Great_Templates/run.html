@@ -1,0 +1,23 @@
+<!-- FILE RUNNING , PROCESSING YOUR CERTIFICATES, APPLYING GLOSSY LOOKS-->
+{% extends 'base.html' %}
+
+{% block title %}
+Certificate Generation Successful! | CertGen | MLXTREME
+{% endblock %}
+
+{% block maincontent %}
+<!-- Header -->
+<header id="header">
+    <h1>Certificate Generation Successful!</h1>
+    <p>Head Down Below to Download the ZipFile!</p>
+    <h5>Support CertGen by providing your valuable <a href="mailto:njrfarhandasilva10@gmail.com?subject=FeedBack for CertGen" target="_blank">FeedBack</a>.</h5>
+
+</header>
+<br />
+<body class="body">
+    <div class="container" align="left">
+        <a href="/download/{{value}}" target="blank"><button class='btn btn-default'>Download Zip</button></a>
+    </div>
+</body>
+
+{% endblock %}

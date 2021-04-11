@@ -38,11 +38,19 @@ import pickle
 from similarity_score_estimation import get_similarity_score
 from get_lstm_pred import get_lstm
 from get_rf_pred import get_rf_result
-from get_rf_rscv_pred import get_rf_rscv_result
+# from get_rf_rscv_pred import get_rf_rscv_result
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
 
+def total_score(ans1,ans2,model_path):    
+    sim= get_similarity_score(ans1,ans2)
+    #     rf_rscv = get_rf_rscv_result(ans2,model_path1)
+    rf = get_rf_result(ans2,model_path)
+    lstm = get_lstm(ans2)
+
+    total_score = (sim+rf_rscv+rf+lstm)/4
+    return total_score
 
 
 if __name__ == "__main__":
@@ -55,13 +63,15 @@ if __name__ == "__main__":
 
 
 #     model_path1 = "./models/rf-0.607.pkl"
-    model_path = "./models/rf-0.5215.pkl"
+#     model_path = "./models/rf-0.5215.pkl"
 
-    # say ans2= answer provided by student ans1=answer provided by teacher
-    sim= get_similarity_score(ans1,ans2)
-#     rf_rscv = get_rf_rscv_result(ans2,model_path1)
-    rf = get_rf_result(ans2,model_path)
-    lstm = get_lstm(ans2)
+#     # say ans2= answer provided by student ans1=answer provided by teacher
+#     sim= get_similarity_score(ans1,ans2)
+# #     rf_rscv = get_rf_rscv_result(ans2,model_path1)
+#     rf = get_rf_result(ans2,model_path)
+#     lstm = get_lstm(ans2)
 
-    total_score = (sim+rf_rscv+rf+lstm)/4
-    print(total_score)
+#     total_score = (sim+rf_rscv+rf+lstm)/4
+#     print(total_score)
+    score = total_score(ans1,ans2,model_path)
+    print(score)

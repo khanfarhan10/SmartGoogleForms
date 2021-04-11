@@ -1,0 +1,10 @@
+gunicorn==20.0.4 # Deployment to Heroku
+
+Flask==1.1.1
+pandas # ==1.2.3 # handling CSVs, EXCELs
+nltk
+PyDictionary
+rake_nltk
+xlrd==2.0.1
+openpyxl==3.0.7
+XlsxWriter
