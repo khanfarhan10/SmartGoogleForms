@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-<a href="LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/soumya997/Smart-Exam-Form?style=for-the-badge"></a>
+<a href="LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/khanfarhan10/SmartGoogleForms?style=for-the-badge"></a>
   <img src="https://forthebadge.com/images/badges/built-with-love.svg">     <img src="https://forthebadge.com/images/badges/made-with-python.svg">    <img src="https://forthebadge.com/images/badges/open-source.svg">
 </p>
 
@@ -93,3 +93,14 @@ All the files lies into the `ML area` folder.
 - Nirmalya Misra, Department of Information Technology (2nd year), Institute of Engineering & Management, Kolkata, West Bengal, nirmalya14misra@gmail.com.
 - Damik Dhar, Department of Information Technology (2nd year), Institute of Engineering & Management, Kolkata, West Bengal, damikdhar@gmail.com.
 - Farhan Hai Khan, Department of Electrical Engineering (3rd year), Institute of Engineering & Management, Kolkata, West Bengal, njrfarhandasilva10@gmail.com.
+
+ 
+ <table>
+  <tr>
+    <td align="center"><a href="https://github.com/khanfarhan10"><img src="https://avatars.githubusercontent.com/u/50246790?v=4" width="100px;" alt=""/><br /><sub><b>Farhan Hai Khan</b></sub></a><br /><a href="https://github.com/khanfarhan10/SmartGoogleForms/commits?author=khanfarhan10" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/soumya997"><img src="https://avatars0.githubusercontent.com/u/54326088?v=4" width="100px;" alt=""/><br /><sub><b>Soumyadip Sarkar</b></sub></a><br /><a href="https://github.com/khanfarhan10/SmartGoogleForms/commits?author=soumya997" title="Code">💻</a></td>
+  <td align="center"><a href="https://github.com/nirmalya8"><img src="https://avatars.githubusercontent.com/u/39618712?v=4" width="100px;" alt=""/><br /><sub><b>Nirmalya Misra</b></sub></a><br /><a href="https://github.com/khanfarhan10/SmartGoogleForms/commits?author=nirmalya8" title="Code">💻</a></td>
+  <td align="center"><a href="https://github.com/damikdhar"><img src="https://avatars.githubusercontent.com/u/64252762?v=4" width="100px;" alt=""/><br /><sub><b>Damik Dhar</b></sub></a><br /><a href="https://github.com/khanfarhan10/SmartGoogleForms/commits?author=damikdhar" title="Code">💻</a></td>
+  </tr>
+</table>
+ 
